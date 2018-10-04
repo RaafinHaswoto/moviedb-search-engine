@@ -6,18 +6,21 @@ class App extends Component {
     return (
       <div className="App">
         
-        <table>
+        <table className="titleBar">
           <tbody>
             <tr>
               <td>
-                cell 1
+                <img alt="app-icon" width="100" src="green_app_icon.svg" />
               </td>
+              <td width="8" />
               <td>
-                cell 2
+                <h1>MoviesDB Search</h1>
               </td>
             </tr>
           </tbody>
         </table>
+
+        <input placeholder="Enter Search" />
 
       </div>
     );
